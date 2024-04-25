@@ -19,3 +19,12 @@ else:
 
 else:
     print(number, "is not a prime number.")
+number = int(input("Enter a number to check if it's prime: "))
+
+if is_prime(number):
+    print(number, "is a prime number.")
+else:
+    print(number, "is not a prime number.")
+
+else:
+    print(number, "is not a prime number.")
